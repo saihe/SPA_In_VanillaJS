@@ -20,8 +20,6 @@ window.push = function(uri) {
 }
 
 window.onpopstate = function (e) {
-  console.log('popした');
-  console.log(e);
   render(e.currentTarget.history.state || routes['#/A']());
 }
 
