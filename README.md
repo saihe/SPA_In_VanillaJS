@@ -1,1 +1,4 @@
-# SPA_In_VanillaJS
+# バニラJSのみでSPA作ってみたい
+
+- htmlはindex.htmlのみでJSにコンポーネントの記述をする
+- ルーティングもヒストリー付きで自前実装
